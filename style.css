@@ -1,0 +1,282 @@
+h1, p{
+    text-align: center;
+}
+h2, p{
+    text-align: center
+}
+
+img{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.main-header {
+    z-index: 1;
+    background-image: linear-gradient(rgb(197, 141, 137), rgb(252, 232, 204));
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    height: 48px;
+
+}
+.header-info {
+    text-align: left;
+    color: rgb(238, 16, 0);
+    position:absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 14-x 14 px 0px;
+    margin-left: 10px;
+
+}
+.header-info a {
+    padding: 0;
+    text-decoration: none; 
+}
+.header-info a:hover {
+    background-color: transparent
+}
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    padding: 15px;
+    float: left;
+}
+a:hover{
+    background-color:burlywood
+}
+.jumbotron {
+    margin-top: 5%
+}
+.title {
+    font-style: italic;
+    color: rgb(0,0,0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0,0,0);
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h3, p{
+    text-align: center;
+    padding: 5px;
+    color: rgb(114, 46, 46);
+}
+/* web bg */
+body {
+    background-color: rgb(193, 193, 193);
+}
+/* Product showcaase */
+.landscape {
+    width: 350px;
+    height: 240px;
+}
+/* battleship */
+.battleship {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(107, 102, 84);
+}
+.battleship img{
+    border: 10px solid rgb(107, 102, 84);
+    opacity: 0.9
+}
+.battleship img:hover{
+    opacity: 1
+}
+.bbdesc {
+    text-align: center;
+    padding: 5px;
+    color: rgb(253, 253, 253);
+}
+/* battle cruiser */
+.battle-cruiser {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color:rgb(138, 136, 130)
+}
+.battle-cruiser img{
+    border:10px solid rgb(138, 136, 130);
+    opacity: 0.9
+}
+.battle-cruiser img:hover {
+    opacity: 1
+}
+.bcdesc {
+    text-align: center;
+    padding: 5px;
+    color: rgb(253, 253, 253)
+}
+/* carrier */
+.carrier {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(59, 56, 47);
+}
+.carrier img{
+    border: 10px solid rgb(59, 56, 47);
+    opacity: 0.9;
+}
+.carrier img:hover{
+    opacity: 1;
+}
+.cvdesc {
+    text-align: center;
+    padding: 5px;
+    color: rgb(253, 253, 253)
+}
+/* destroyer */
+.destroyer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(211, 211, 206);
+}
+.destroyer img {
+    border: 10px solid rgb(211, 211, 206);
+    opacity: 0.9
+}
+.destroyer img:hover {
+    opacity: 1
+}
+.dddesc {
+    text-align: center;
+    padding: 5px;
+    color: rgb(114, 46, 46);
+}
+/* submarine */
+.submarine {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color:rgb(0, 0, 0);
+}
+.submarine img {
+    border: 10px solid rgb(0,0,0);
+    opacity: 0.9;
+}
+.submarine img:hover {
+    opacity: 1;
+}
+.subdesc {
+    text-align: center;
+    padding: 5px;
+    color: rgb(253, 253, 253)
+}
+table, tr, th, td {
+    border: 2px solid rgb(107, 102, 84);
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#pricing {
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.tab {
+    background-color: gainsboro;
+    width: 250px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+h1.name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+h2.price {
+    font-size: 38px;
+    color: black;
+}
+.list {
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.list li{
+    margin-top: 20px;
+    color: black;
+}
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(219, 84, 75);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px
+}
+button{
+    background-color: rgba(219, 85, 75, 0.616);
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: 20pt;
+    cursor: pointer;
+    
+}
+button:hover{
+    transform: scale(1.2, 1.2);
+    background-color: rgb(106, 76, 74);
+    
+}
+.po{
+   display: flex;
+   justify-content: center; 
+}
+div.about{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: blanchedalmond;
+    width: 80%;
+    border-radius: 10px;
+}
+.about {
+    text-align: left;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+div.image-about{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img.about-us {
+    width: 300px;
+
+}
+
